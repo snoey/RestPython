@@ -1,0 +1,18 @@
+version: "3"
+
+
+services:
+  web:
+    build: .
+    command: python run.py runserver 0.0.0.0:5000
+    environment:
+     - DATABASE_HOST= 192.168.43.31
+     - DATABASE_NAME=gojek
+     - DATABASE_USER=postgres
+     - DATABASE_PASSWORD=postgres
+     - DATABASE_PORT=5432
+     - ALLOWED_HOSTS=localhost|0.0.0.0|172.19.220.97|10.71.201.17|10.71.201.19    
+    volumes:
+      - .:/gojek
+    ports:
+     - "9090:5000"
