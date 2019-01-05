@@ -28,31 +28,20 @@ python migrate.py db migrate
 python migrate.py db upgrade
  
 
-11.	Edit file RegistrationDriverDataCsv.py change directory 
+11. Edit file RegistrationDriverDataCsv.py change directory 
 
-with open('/Users/snoy/gojek/data/driver_registration.csv', 'r') as f:
+	with open('/Users/snoy/gojek/data/driver_registration.csv', 'r') as f:
 
-Insert Data csv to database postgres
+	Insert Data Registration driver from file csv to database postgres
 
-Run on CMD >>python RegistrationDriverDataCsv.py 
+	Run on CMD >>python RegistrationDriverDataCsv.py 
  
 
 12.	Run on CMD >> python run.py
-
- 
 
 
 
 13.	Copy this link on browser : http://127.0.0.1:5000/
 
- 
-	
 
-
-
-
-http://127.0.0.1:5000/RegistrationDriver
-
-
- 
-
+	http://127.0.0.1:5000/RegistrationDriver
