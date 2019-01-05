@@ -29,6 +29,7 @@ python migrate.py db upgrade
  
 
 11.	Edit file RegistrationDriverDataCsv.py change directory 
+
 with open('/Users/snoy/gojek/data/driver_registration.csv', 'r') as f:
 Insert Data csv to database postgres
 Run on CMD >>python RegistrationDriverDataCsv.py 
